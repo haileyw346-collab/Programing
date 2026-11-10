@@ -1,7 +1,7 @@
 #Hailey Wilson
 #11/9/26
-#TaskA.py
-#
+#Class Schedule Card
+#Prints a daily schedule card for the IT Academy
 
 print("*" * 34)
 print("  MEDINA COUNTY CAREER CENTER")
