@@ -23,8 +23,8 @@ round_gas = gas_cost*2
 
 #output
 print(f"\n--- Trip to {destination} ---")
-print(f"Gallons of gas:   {gallons}")
-print(f"Gas cost:         ${gas_cost}")
-print(f"Cost per person:  ${cost_per_person}")
+print(f"Gallons of gas:   {gallons:.1f}")
+print(f"Gas cost:         ${gas_cost:.2f}")
+print(f"Cost per person:  ${cost_per_person:.2f}")
 print(f"Driving time:     {hours} hr {minutes} min (at {AVERAGE_SPEED} mph)")
-print(f"Round trip gas:   ${round_gas}")
+print(f"Round trip gas:   ${round_gas:.2f}")
